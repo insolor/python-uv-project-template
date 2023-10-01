@@ -12,7 +12,7 @@ python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"
-hypothesis = "^6.87.0"
+hypothesis = "^6.87.1"
 flake8 = { version = "^6.1.0", python = "^3.8.1"}
 
 [build-system]
