@@ -61,13 +61,13 @@ pyflakes = ">=3.1.0,<3.2.0"
 
 [[package]]
 name = "hypothesis"
-version = "6.87.1"
+version = "6.88.1"
 description = "A library for property-based testing"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "hypothesis-6.87.1-py3-none-any.whl", hash = "sha256:6b03e774d7ddddc29810e58ba4c41b5c9a894427aaf336e6400c560655a7449b"},
-    {file = "hypothesis-6.87.1.tar.gz", hash = "sha256:13615a8f7fa27d102c43ab2f92eaef519988700f3ca8129bc6340d36dec372dd"},
+    {file = "hypothesis-6.88.1-py3-none-any.whl", hash = "sha256:b45b8a651dfe4ce26f900ce6ccbce997d4fbec39ba03dd243516bf81fea8c0b8"},
+    {file = "hypothesis-6.88.1.tar.gz", hash = "sha256:f4c2c004b9ec3e0e25332ad2cb6b91eba477a855557a7b5c6e79068809ff8b51"},
 ]
 
 [package.dependencies]
@@ -163,13 +163,13 @@ files = [
 
 [[package]]
 name = "pytest"
-version = "7.4.2"
+version = "7.4.3"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pytest-7.4.2-py3-none-any.whl", hash = "sha256:1d881c6124e08ff0a1bb75ba3ec0bfd8b5354a01c194ddd5a0a870a48d99b002"},
-    {file = "pytest-7.4.2.tar.gz", hash = "sha256:a766259cfab564a2ad52cb1aae1b881a75c3eb7e34ca3779697c23ed47c47069"},
+    {file = "pytest-7.4.3-py3-none-any.whl", hash = "sha256:0d009c083ea859a71b76adf7c1d502e4bc170b80a8ef002da5806527b9591fac"},
+    {file = "pytest-7.4.3.tar.gz", hash = "sha256:d989d136982de4e3b29dabcc838ad581c64e8ed52c11fbe86ddebd9da0818cd5"},
 ]
 
 [package.dependencies]
@@ -208,4 +208,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.1"
-content-hash = "ad152871bae538d1e797b067ee7bcaeeebb5746b8806789ec8aeeb8ffc6e4028"
+content-hash = "b76a01444e3000321c8305ed0db9bf5408fd985a0af1cf6344dc598a480108f4"
