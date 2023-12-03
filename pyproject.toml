@@ -9,12 +9,26 @@ packages = [{include = "test_github_actions"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 
-
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
 hypothesis = "^6.91.0"
 flake8 = { version = "^6.1.0", python = "^3.8.1"}
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.report]
+exclude_also = [
+    "def __repr__",
+    "if self.debug:",
+    "if settings.DEBUG",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
