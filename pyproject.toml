@@ -10,10 +10,10 @@ packages = [{include = "test_github_actions"}]
 python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.4.3"
+pytest = ">=7.4.3,<9.0.0"
 pytest-cov = "^4.1.0"
 hypothesis = "^6.91.0"
-flake8 = { version = "^6.1.0", python = "^3.8.1"}
+flake8 = { version = ">=6.1,<8.0", python = "^3.8.1"}
 
 [build-system]
 requires = ["poetry-core"]
