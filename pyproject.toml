@@ -13,7 +13,7 @@ python = "^3.8"
 pytest = ">=7.4.3,<9.0.0"
 pytest-cov = ">=4.1,<6.0"
 hypothesis = "^6.91.0"
-flake8 = { version = ">=6.1,<8.0", python = "^3.8.1"}
+ruff = "^0.4.7"
 
 [build-system]
 requires = ["poetry-core"]
@@ -32,3 +32,11 @@ exclude_also = [
     "class .*\\bProtocol\\):",
     "@(abc\\.)?abstractmethod",
 ]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D"]  # Ignore all documentation warnings. Probably not the best option in real projects.
+fixable = ["ALL"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101", "ANN201"]
