@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "test_github_actions"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 
 [tool.poetry.group.dev.dependencies]
 pytest = ">=7.4.3,<9.0.0"
