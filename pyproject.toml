@@ -1,5 +1,5 @@
 [project]
-name = "test-github-actions"
+name = "python-uv-project-template"
 version = "0.1.0"
 description = ""
 authors = [{ name = "insolor", email = "insolor@gmail.com" }]
@@ -15,10 +15,10 @@ dev = [
 ]
 
 [tool.hatch.build.targets.sdist]
-include = ["test_github_actions"]
+include = ["python_uv_project_template"]
 
 [tool.hatch.build.targets.wheel]
-include = ["test_github_actions"]
+include = ["python_uv_project_template"]
 
 [build-system]
 requires = ["hatchling"]
