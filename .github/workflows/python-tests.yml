@@ -45,6 +45,7 @@ jobs:
       run: uv run pytest --cov=.
 
     - name: Upload coverage data to coveralls.io
+      continue-on-error: true
       run: |
         pipx run coveralls
       env:
@@ -61,6 +62,7 @@ jobs:
     - name: Install coveralls
       run: pip3 install --upgrade coveralls
     - name: Finished
+      continue-on-error: true
       run: coveralls --finish
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
