@@ -9,9 +9,9 @@ readme = "README.md"
 [dependency-groups]
 dev = [
     "pytest>=7.4.3,<9.0.0",
-    "pytest-cov>=4.1,<6.0",
+    "pytest-cov>=4.1,<8.0",
     "hypothesis>=6.91.0,<7",
-    "ruff>=0.4.7,<0.13.0",
+    "ruff>=0.4.7,<0.15.0",
 ]
 
 [tool.hatch.build.targets.sdist]
