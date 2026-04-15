@@ -3,12 +3,12 @@ name = "python-uv-project-template"
 version = "0.1.0"
 description = ""
 authors = [{ name = "insolor", email = "insolor@gmail.com" }]
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 readme = "README.md"
 
 [dependency-groups]
 dev = [
-    "pytest>=7.4.3,<9.0.0",
+    "pytest>=9.0.3,<10.0.0",
     "pytest-cov>=4.1,<8.0",
     "hypothesis>=6.91.0,<7",
     "ruff>=0.4.7,<0.16.0",
