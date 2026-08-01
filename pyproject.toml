@@ -40,7 +40,10 @@ exclude_also = [
 
 [tool.ruff.lint]
 select = ["ALL"]
-ignore = ["D"]  # Ignore all documentation warnings. Probably not the best option in real projects.
+ignore = [
+    "D", # Ignore all documentation warnings. Probably not the best option in real projects.
+    "CPY001",
+]
 fixable = ["ALL"]
 
 [tool.ruff.lint.per-file-ignores]
